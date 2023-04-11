@@ -1,0 +1,95 @@
+body {
+    background-color: #fff;
+}
+
+header {
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+aside {
+    flex: 30%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+aside { 
+    display: block;
+  }
+
+#Work{
+display: inline-block;
+}
+
+
+.float-left{
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right{
+float:right;
+margin-left: 20px;    
+}
+
+
+.card {
+
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+  
+.card header {
+    padding: 20px;
+    background: darkcyan;
+    color: #fff;
+}
+  
+.card img {
+    height: 10%;
+    width: 70%;
+    min-width: 400px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: darkcyan;
+    color: #fff;
+}
